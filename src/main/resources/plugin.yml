@@ -1,0 +1,13 @@
+name: Peteffect
+version: ${project.version}
+main: tr.com.infumia.darkkandadr.peteffect.Peteffect
+api-version: 1.13
+prefix: PETEFFECT
+authors: [Darkkandadr]
+description: Pet effect.
+website: www.infumia.com.tr
+commands:
+  peteffect:
+      permission: peteffect.admin
+      permission-message: You don't have permission to use this command.
+      description: Pet effect main command.
